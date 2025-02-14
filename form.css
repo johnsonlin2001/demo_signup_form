@@ -1,0 +1,17 @@
+.main{
+    height: 1000px;
+    width: 50%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    background-color: blue;
+    flex: 2;
+}
+
+.right{
+    background-color: brown;
+    flex:3
+}
