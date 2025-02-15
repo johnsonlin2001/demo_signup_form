@@ -78,6 +78,35 @@
 }
 
 .input-group input{
-    width: 120px;
-    height: 20px;
+    width: 250px;
+    height: 30px;
+}
+ 
+input:user-invalid {
+    border: 2px solid red; /* Red border when invalid after interaction */
+    outline: none; /* Removes default focus outline */
+}
+
+.form-div{
+    font-family: "Roboto";
+}
+
+.footer{
+    padding-left: 45px;
+    padding-top: 40px;
+    font-family: "Roboto";
+}
+
+.create-button{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #596D48;
+    color: white;
+    border-radius: 5px;
+    border-color: #596D48;
+}
+
+.log-in:hover{ 
+    cursor: pointer;
 }
